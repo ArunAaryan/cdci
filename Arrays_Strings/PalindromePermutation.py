@@ -12,10 +12,7 @@ def checkPalindrome(str):
                 return False
             flag = True
     return True
-
-
-
-
+    
 def getChar(char):
     aNum = ord('a')
     valNum = ord(char) - (aNum)

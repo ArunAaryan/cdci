@@ -22,4 +22,5 @@ def oneway(str1, str2):
             index1 += 1
         index2 += 1
     return True
+    
 print(oneway('barel', 'barle'))
