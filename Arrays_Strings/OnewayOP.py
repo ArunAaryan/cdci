@@ -1,4 +1,4 @@
-def oneway(str1, str2):
+def Oneway(Str1, Str2):
     if abs(len(str1) - len(str2) > 1):
         return False
     if len(str1) < len(str2):
@@ -10,8 +10,10 @@ def oneway(str1, str2):
 
     index1 = 0
     index2 = 0
-    foundEdit = False
-    while index1 < len(short_str) and index2 < len(long_str):
+
+
+    while Index1 < Len(short_str) and index2 < len(long_str):
+
         if short_str[index1] != long_str[index2]:
             if foundEdit:
                 return False
@@ -21,6 +23,7 @@ def oneway(str1, str2):
         else:
             index1 += 1
         index2 += 1
+
     return True
     
 print(oneway('barel', 'barle'))
